@@ -14,6 +14,7 @@ function PlayerData(props){
   PlayerData.propTypes = {
     name: PropTypes.string,
     guessesRemaining: PropTypes.number,
-    lettersChosen: PropTypes.string
+    lettersChosen: PropTypes.array,
+    id: PropTypes.number
   }
 }

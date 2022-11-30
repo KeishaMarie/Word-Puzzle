@@ -11,3 +11,5 @@ function RandomWord(props){
 RandomWord.propTypes = {
   randomWord: PropTypes.array
 }
+
+
